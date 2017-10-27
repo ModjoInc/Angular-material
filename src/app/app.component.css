@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr*2;
+    grid-template-areas: "sub1 sub2";
+}
+.sub1 {
+    grid-area: "sub1";
+
+}
+.sub2 {
+    grid-area: "sub2";
+
+}
